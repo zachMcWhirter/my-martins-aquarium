@@ -1,9 +1,23 @@
 .fishList {
     background-color: goldenrod;
+    display: flex;
+    flex-wrap: wrap;
+    border: black 2px solid;
+    justify-content: center;
+    margin: 1em;
+    box-shadow: black 0 0 4px;
+    border-radius: .2em .2em;
 }
 
 .fish {
     background-color: red;
+    border: black 2px solid;
+    display: flex;
+    justify-content: center;
+    margin: 1.5em;
+    box-shadow: black 0 0 4px;
+    border-radius: .4em .4em;
+    
 }
 
 

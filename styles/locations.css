@@ -1,13 +1,32 @@
 .locationList {
-    background-color: mediumaquamarine;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    border: black 1px solid;
+    margin: 1em;
+    box-shadow: black 0 0 4px;
+    border-radius: .2em .2em;
 }
 
 .location {
-    background-color: mediumseagreen;
+    background-color: mediumaquamarine;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    border: black 1px solid;
+    box-shadow: black 0 0 4px;
+    border-radius: .2em .2em;
 }
 
 
 .location__picture {
+
     max-width: 15rem;
     max-height: 15rem;
+    border: black 1px solid;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    box-shadow: black 0 0 4px;
 }

@@ -32,7 +32,7 @@ const fishCollection = [
         name: "Michael"
     },
     {
-        species: "Elegant Corydoras",
+        species: "Corydoras",
         length: 3,
         location: "Caribbean Sea",
         food: "Algae",
