@@ -4,7 +4,7 @@ representations, and putting in the browser
 */
 
 const locationList = () => {
-    debugger
+
     // Iterate the collection of location objects
     for (const currentLocationObject of locationCollection) {
 

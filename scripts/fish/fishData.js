@@ -48,3 +48,46 @@ const fishCollection = [
         name: "Michael"
     }
 ]
+
+// 3, 6, 9, 12, etc... fish
+const mostHolyFish = (fishObject) => {
+    const holyFish = []
+
+    for (fishObject of fishCollection) {
+        if (fishObject.length % 3 === 0) {
+            holyFish.push(fishObject)
+        }
+    }
+    return holyFish
+}
+
+// 5, 10, 15, 20, 25, etc... fish
+const soldierFish = (fishObject) => {
+    const soldiers = []
+
+    for (fishObject of fishCollection) {
+        if (fishObject.length % 5 === 0) {
+            soldiers.push(fishObject)
+        }
+    }
+    return soldiers
+}
+
+// Any fish not a multiple of 3 or 5
+const nonHolyFish = (fishObject) => {
+    const regularFish = []
+
+    for (fishObject of fishCollection) {
+        if (fishObject.length % 3 !== 0 && fishObject.length % 5 !== 0) {
+            regularFish.push(fishObject)
+        }
+    }
+    return regularFish
+}
+
+
+var a = mostHolyFish()
+var b = soldierFish()
+var c = nonHolyFish()
+
+console.log(a, b, c)
