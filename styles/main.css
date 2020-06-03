@@ -1,3 +1,4 @@
+
 @import "fish.css";
 @import "locations.css";
 @import "tips.css";
@@ -8,6 +9,9 @@
 .container {
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/692/059/non_2x/shark-seamless-pattern-isolated-on-white-background-vector.jpg");
+
 }
 
 .underTheBanner {

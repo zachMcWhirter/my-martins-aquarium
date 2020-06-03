@@ -21,8 +21,11 @@
     
 }
 
+.header--fish
+
 
 .fish__picture {
     max-width: 15rem;
     max-height: 15rem;
+    display: flex;
 }
