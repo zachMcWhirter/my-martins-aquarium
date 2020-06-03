@@ -1,6 +1,7 @@
 .banner {
     background-color: blue;
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     margin: 1rem;
@@ -8,4 +9,6 @@
     margin: 1em;
     box-shadow: black 0 0 4px;
     border-radius: .2em .2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
