@@ -3,6 +3,14 @@ Responsible for generating a list of location HTML
 representations, and putting in the browser
 */
 
+
+// This adds an event listener to toggle/hide the loactions list in the browser
+const locationVisibilityButton = document.querySelector(".toggleLocations")
+
+locationVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".locationList").classList.toggle("hidden")
+})
+
 const locationList = () => {
     // Iterate the collection of location objects
     for (const currentLocationObject of locationCollection) {

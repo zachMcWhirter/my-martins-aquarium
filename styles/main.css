@@ -4,6 +4,7 @@
 @import "tips.css";
 @import "quotes.css";
 @import "banner.css";
+@import "customization.css";
 
 
 .container {
@@ -12,6 +13,10 @@
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("https://static.vecteezy.com/system/resources/previews/000/692/059/non_2x/shark-seamless-pattern-isolated-on-white-background-vector.jpg");
 
+}
+
+.hidden {
+    display:none;
 }
 
 .underTheBanner {

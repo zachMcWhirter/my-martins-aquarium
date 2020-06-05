@@ -3,6 +3,12 @@ Responsible for generating a list of tip HTML
 representations, and putting in the browser
 */
 
+const tipVisibilityButton = document.querySelector(".toggleTips")
+
+tipVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".tipList").classList.toggle("hidden")
+})
+
 const tipList = () => {
     // Iterate the collection of tip objects
     for (const currentTipObject of tipCollection) {

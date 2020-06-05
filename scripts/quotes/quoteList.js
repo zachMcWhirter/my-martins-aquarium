@@ -3,6 +3,13 @@ Responsible for generating a list of quote HTML
 representations, and putting in the browser
 */
 
+const quoteVisibilityButton = document.querySelector(".toggleQuotes")
+
+quoteVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".quoteList").classList.toggle("hidden")
+})
+
+
 const quoteList = () => {
    
     // Iterate the collection of quote objects
