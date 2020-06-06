@@ -10,7 +10,7 @@
       "name": "Bubbles"
     },
     {
-      "id": 2,  
+      "id": 2,
       "species": "Parrot Fish",
       "length": 8,
       "location": "Sea of Google",
@@ -53,6 +53,15 @@
       "picture": "https://i.pinimg.com/236x/9d/3e/2b/9d3e2b9a8aa093f73079e995fcf2995c.jpg",
       "food": "Anchovies",
       "name": "Michael"
+    },
+    {
+      "id": 7,
+      "species": "Bull Shark",
+      "length": 236,
+      "location": "Brisbane River",
+      "picture": "http://r.ddmcdn.com/s_f/o_1/APL/uploads/2014/07/bull-shark-adventure-fishing0.jpg",
+      "food": "meat",
+      "name": "Bruce Liam"
     }
   ],
   "locations": [
@@ -74,33 +83,26 @@
   ],
   "tips": [
     {
-      "id": 1,
       "tip": "Stonefish tidewater goby Sevan trout blue triggerfish; neon tetra?"
     },
     {
-      "id": 2,
       "tip": "Black angelfish giant danio searobin threespine stickleback northern."
     },
     {
-      "id": 3,
       "tip": "Flabby whalefish flagfin, righteye flounder glassfish neon tetra zander"
     }
   ],
   "quotes": [
     {
-      "id": 1,
       "quote": "Halosaur graveldiver barbeled houndshark mail-cheeked fish Black pickerel."
     },
     {
-      "id": 2,
       "quote": "Molly Miller dory Rainbow trout ghost flathead gudgeon."
     },
     {
-      "id": 3,
       "quote": "Scabbard fish: gizzard shad smalleye squaretail dwarf gourami banjo catfish."
     },
     {
-      "id": 4,
       "quote": "French angelfish triplefin blenny shortnose chimaera."
     }
   ]
