@@ -1,4 +1,6 @@
 .banner {
+    color: lightskyblue;
+    text-shadow: 0 0 5px black;
     background-color: blue;
     display: flex;
     flex-direction: row;
@@ -7,6 +9,7 @@
     box-shadow: black 0 0 8px;
     border-radius: .2em .2em;
     width: 60%;
+    
 }
 
 .banner__title {

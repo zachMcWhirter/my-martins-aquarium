@@ -1,7 +1,6 @@
 {
   "fish": [
     {
-      "id": 1,
       "species": "Trigger Fish",
       "length": 12,
       "location": "Bay of Bengal",
@@ -10,7 +9,6 @@
       "name": "Bubbles"
     },
     {
-      "id": 2,
       "species": "Parrot Fish",
       "length": 8,
       "location": "Sea of Google",
@@ -19,7 +17,6 @@
       "name": "Angus"
     },
     {
-      "id": 3,
       "species": "Swordfish",
       "length": 320,
       "location": "Atlantic Ocean",
@@ -28,7 +25,6 @@
       "name": "Chester"
     },
     {
-      "id": 4,
       "species": "Angel Fish",
       "length": 8,
       "location": "Pacific Ocean",
@@ -37,7 +33,6 @@
       "name": "Michael"
     },
     {
-      "id": 5,
       "species": "Corydoras",
       "length": 3,
       "location": "Caribbean Sea",
@@ -46,7 +41,6 @@
       "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Corydoras_elegans.jpg/440px-Corydoras_elegans.jpg"
     },
     {
-      "id": 6,
       "species": "Orange Roughy",
       "length": 16,
       "location": "Southern Ocean",
@@ -62,21 +56,45 @@
       "picture": "http://r.ddmcdn.com/s_f/o_1/APL/uploads/2014/07/bull-shark-adventure-fishing0.jpg",
       "food": "meat",
       "name": "Bruce Liam"
+    },
+    {
+      "id": 8,
+      "species": "Tiger Shark",
+      "length": 760,
+      "location": "Gulf of Mexico",
+      "picture": "https://i.shgcdn.com/58d827d8-a599-4161-a277-2d7ef3c5540e/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+      "food": "Nacho Cheese Doritos",
+      "name": "Logan Awesome"
+    },
+    {
+      "id": 9,
+      "species": "Goliath Grouper",
+      "length": 250,
+      "location": "Atlantic Ocean",
+      "picture": "https://static.shoplightspeed.com/shops/606014/files/001609522/goliath.jpg",
+      "food": "Mac and Cheese",
+      "name": "Jet Liam"
+    },
+    {
+      "id": "6",
+      "species": "Orange Roughy",
+      "length": 16,
+      "location": "Southern Ocean",
+      "picture": "https://i.pinimg.com/236x/9d/3e/2b/9d3e2b9a8aa093f73079e995fcf2995c.jpg",
+      "food": "Anchovies",
+      "name": "Riley"
     }
   ],
   "locations": [
     {
-      "id": 1,
       "picture": "https://caribbeannewsservice.com/now/wp-content/uploads/2017/05/Caribbean-Sea.jpg",
       "details": "Beautiful picture of Caribbean Sea"
     },
     {
-      "id": 2,
       "picture": "http://www.modenus.com/blog/wp-content/uploads/2011/12/Stein-Liland.jpeg",
       "details": "Beautiful picture of Scandinavia"
     },
     {
-      "id": 3,
       "picture": "https://www.telegraph.co.uk/content/dam/Travel/2016/November/greek-zante-AP.jpg?imwidth=1400",
       "details": "The Mediterranean Coast"
     }

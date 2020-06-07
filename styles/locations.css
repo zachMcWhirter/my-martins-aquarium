@@ -1,6 +1,6 @@
 
 .locationList {
-    background-color: darkblue;
+    background-color: blue;
     display: flex;
     justify-content: center;
     margin: 1rem;
@@ -11,7 +11,7 @@
 }
 
 .location {
-    background-color: mediumaquamarine;
+    background-color: lightskyblue;
     display: flex;
     justify-content: center;
     margin: 1rem;
